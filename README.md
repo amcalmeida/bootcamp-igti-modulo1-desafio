@@ -23,7 +23,7 @@ A página apresentada na Figura 1 trata-se da **Home** de sua aplicação. Nela 
 - **Barras:** Pareto com o Top 10 no número de mortes por país.
 
 **_Figura 1 – Home page da aplicação._**
-![/images/figura_01.png]
+![/images/figura_01.png](/images/figura_01.png)
 A página apresentada na Figura 2 trata-se das informações **diárias** por País, acessada pelo menu superior País. Os elementos apresentados na página são:
 
 - **Filtros:** Data Início, Data Fim, País (combo retornado pela rota “/coutries”), Dados (Casos Confirmados, Número de Mortes e Casos Recuperados) e o um botão para aplicar os filtros selecionados.
@@ -31,7 +31,7 @@ A página apresentada na Figura 2 trata-se das informações **diárias** por Pa
 - **KPIs:** Total de Confirmados, Total de Mortes e Total de Recuperados para o país selecionado.
 
 **_Figura 2 – Apresentação dos números diários de um país._**
-![/images/figura_02.png]
+![/images/figura_02.png](/images/figura_02.png)
 3. Nas informações por país, foi utilizada a rota “By Country All Status”. Mais detalhes e exemplos podem ser avaliados na documentação da API:
 https://documenter.getpostman.com/view/10808728/SzS8rjbc.
 
