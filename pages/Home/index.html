@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
+
+    <title>Desafio Módulo 1</title>
+</head>
+<body>
+    <nav>
+        <div id="navContainer">
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="../NoBrasil/index.html">No Brasil</a></li>
+                <li><a href="../Ranking/index.html">Ranking</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="containersTop">
+            <div id="containerM">
+                <div id="boxesContainer">
+                    <div id="box1" class="totalBoxes">
+                        <h3>Total de Confirmados</h3>
+                        <h4 id="totalConfirmed"></h4>
+                    </div>
+                    <div id="box2" class="totalBoxes">
+                        <h3>Total de Mortes</h3>
+                        <h4 id="totalDeaths"></h4>
+                    </div>
+                    <div id="box3" class="totalBoxes">
+                        <h3>Total de Recuperados</h3>
+                        <h4 id="totalRecovered"></h4>
+                    </div>
+                </div>
+                <div id="lastUpdateBar">
+                    <span>Data da atualização: 11/08/2021 - 22:11</span>
+                </div>
+            </div>
+            <div id="containerM">
+                <canvas id="chartPizza" width="400" height="400"></canvas>
+            </div>
+        </div>
+        <div id="containerBottom">
+            <div id="containerG">
+                <canvas id="chartBar"></canvas>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
